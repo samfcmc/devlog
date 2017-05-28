@@ -24,7 +24,7 @@ github_username:  samfcmc
 github: [metadata]
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 theme: minima
 gems:
