@@ -1,0 +1,21 @@
+.page,
+.post {
+	animation: page-appear 0.25s ease-out;
+	animation-delay: 0.25s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes page-appear {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	25% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
