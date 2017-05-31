@@ -1,0 +1,57 @@
+.tag {
+	display: inline-block;
+	font-size: 12pt;
+	line-height: 1.2;
+	background-color: #82800d;
+	color: white;
+	border: 1px solid black;
+	border-radius: 6%;
+	margin-right: 10px;
+	padding: 4px;
+}
+
+.test {
+	@extend .tag;
+	background-color: pink;
+}
+
+.beginner {
+	@extend .tag;
+	background-color: #1a4913;
+}
+
+.medium {
+	@extend .tag;
+	background-color: #483713;
+}
+
+.expert {
+	@extend .tag;
+	background-color: #541615;
+}
+
+.frontend {
+	@extend .tag;
+	background-color: #217084;
+}
+
+.backend {
+	@extend .tag;
+	background-color: #4e5254;
+}
+
+.mobile {
+	@extend .tag;
+	background-color: #25564f;
+}
+
+.fun {
+	@extend .tag;
+	background-color: #1e5911;
+}
+
+.javascript,
+.java {
+	@extend .tag;
+	background-color: #82800d;
+}
