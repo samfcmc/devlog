@@ -10,6 +10,10 @@
 	padding: 4px;
 }
 
+.random {
+	@extend .tag;
+}
+
 .test {
 	@extend .tag;
 	background-color: pink;

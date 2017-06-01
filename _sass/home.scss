@@ -1,0 +1,26 @@
+$carousel-link-color: #ce1ac5;
+.carousel-inner {
+	a {
+		color: white;
+		height: 100%;
+		display: inline-block;
+		transition: transform 0.5s ease-out;
+	}
+	a:hover {
+		color: $carousel-link-color;
+		transform: scale(1.4);
+	}
+	img {
+		margin: auto;
+	}
+	.item {
+		background-color: black;
+	}
+}
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control:hover {
+	color: $carousel-link-color;
+}

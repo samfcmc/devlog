@@ -1,8 +1,15 @@
 a,
 .btn {
-	transition: color 0.25s ease-out, background-color 0.25s ease-out;
+	transition: color 0.25s ease-out, background-color 0.25s ease-out, transform 0.5s ease-out;
+}
+
+a {
+	height: 100%;
+	font-size: inherit;
+	display: inline-block;
 }
 
 a:hover {
 	text-decoration: none;
+	transform: scale(1.2);
 }
