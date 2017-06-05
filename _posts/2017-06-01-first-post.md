@@ -23,4 +23,8 @@ I am going to try to write small posts instead of big walls of text so you can r
 
 I hope you guys like it.
 This is just the beginning.
+
+All developers out there or developers wanna be...
 Stay tunned :)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vhh_GeBPOhs" frameborder="0" allowfullscreen></iframe>

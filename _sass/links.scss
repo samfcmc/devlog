@@ -1,15 +1,21 @@
-a,
-.btn {
-	transition: color 0.25s ease-out, background-color 0.25s ease-out, transform 0.5s ease-out;
-}
-
-a {
+.special-link {
 	height: 100%;
 	font-size: inherit;
 	display: inline-block;
 }
 
-a:hover {
-	text-decoration: none;
+.special-link:hover {
 	transform: scale(1.2);
 }
+
+a:hover,
+.special-link:hover {
+	text-decoration: none;
+}
+
+a,
+.special-link {
+	transition: all 0.25s ease-out;
+}
+
+
