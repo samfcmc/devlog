@@ -15,6 +15,14 @@ layout: default
 					</h2>
 				</div>
 
+				
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h4>
+						{% include read_time.html %}
+					</h4>
+				</div>
+				
+
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					{{content}}			
 				</div>
@@ -37,7 +45,7 @@ layout: default
 				{% endif %}
 				
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					{% if page.comments %}
+					{% if page.draft != true %}
 						{% include comments.html %}
 					{% endif %}
 				</div>
