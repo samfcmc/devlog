@@ -27,4 +27,4 @@ This is just the beginning.
 All developers out there or developers wanna be...
 Stay tunned :)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vhh_GeBPOhs" frameborder="0" allowfullscreen></iframe>
+{% include youtube.html video="Vhh_GeBPOhs" %}

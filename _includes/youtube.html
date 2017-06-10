@@ -1,0 +1,12 @@
+{% comment %}
+	Layout to include an embedded youtube video
+	Usage: {% include youtube.html video="<video id>" %}
+
+{% endcomment %}
+
+<div class="embed">
+	<iframe class="embed" width="560" height="315" 
+	src="https://www.youtube.com/embed/{{include.video}}" frameborder="0" 
+	allowfullscreen>
+	</iframe>	
+</div>
