@@ -2,12 +2,23 @@
 	<div class="col-md-offset-3 col-md-6 col-sm-12">
 		{% for post in site.posts %}
 			<div class="row">
+				{% if post.thumbnail %}
+				<div class="col-sm-12">
+					<img class="embed" src="{{site.baseurl}}/assets/images/thumbnails/{{post.thumbnail}}" alt="">
+				</div>
+				{% endif %}
 				<div class="col-sm-12">
 					<h2>
 						<a href="{{site.baseurl}}{{post.url}}">
 							{{post.title}}
 						</a>
 					</h2>
+					<h4>
+						{{post.date | date: '%B %d, %Y'}}
+					</h4>
+					<h4>
+						{% include read_time.html text=post.content %}
+					</h4>
 				</div>
 			</div>
 			<div class="row">
