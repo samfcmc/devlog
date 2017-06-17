@@ -6,6 +6,7 @@ categories: tools
 tags: [Tools, Beginner]
 draft: true
 thumbnail: matrix-2.png
+intro: "The command line is any developer's best friend"
 ---
 A command line is a text interface that you interact with by typing commands.
 In windows you have the `cmd.exe` and in Unix based systems (for instance, Linux and Mac OS) you have `bash`.

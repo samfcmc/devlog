@@ -1,42 +1,58 @@
 <div class="row">
-	<div class="col-md-offset-3 col-md-6 col-sm-12">
+	<div class="col-md-offset-3 col-md-6 col-sm-12 posts-list">
 		{% for post in site.posts %}
-			<div class="row">
-				{% if post.thumbnail %}
-				<div class="col-sm-12">
-					<img class="embed" src="{{site.baseurl}}/assets/images/thumbnails/{{post.thumbnail}}" alt="">
-				</div>
-				{% endif %}
-				<div class="col-sm-12">
-					<h2>
-						<a href="{{site.baseurl}}{{post.url}}">
-							{{post.title}}
-						</a>
-					</h2>
-					<h4>
-						{{post.date | date: '%B %d, %Y'}}
-					</h4>
-					<h4>
-						{% include read_time.html text=post.content %}
-					</h4>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<p>
-						{{post.excerpt}}
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="pull-right">
-						<a href="{{site.baseurl}}{{post.url}}">
-							Read More
-						</a>
+			<div class="row post">
+				
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="row">
+						{% if post.thumbnail %}
+						<div class="col-xs-12 col-sm-6">
+							<img class="embed" src="{{site.baseurl}}/assets/images/thumbnails/{{post.thumbnail}}" alt="">
+						</div>
+						{% endif %}
+						<div class="col-xs-12 col-sm-6">
+							<h2>
+								<a href="{{site.baseurl}}{{post.url}}">
+									{{post.title}}
+								</a>
+							</h2>
+							<h4>
+								{{post.date | date: '%B %d, %Y'}}
+							</h4>
+							<h4>
+								{% include read_time.html text=post.content %}
+							</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<p>
+								{% if post.intro %}
+									{{post.intro}}
+								{% else %}
+									{{post.excerpt}}
+								{% endif %}
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="read-more">
+								<a href="{{site.baseurl}}{{post.url}}">
+									<span class="read-more-text">
+										Read More
+									</span>
+									<span class="read-more-arrow">
+										&gt;
+									</span>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
+				
 			</div>
+			
 		{% endfor %}
 	</div>
 </div>

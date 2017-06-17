@@ -4,7 +4,7 @@ title:  "The First Post"
 date:   2017-06-01 19:30:10 +0100
 categories: general
 tags: [Random]
-comments: true
+thumbnail: developers_developers_developers.png
 ---
 Hi guys!
 My name is Samuel and I am a portuguese guy.
