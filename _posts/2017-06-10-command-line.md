@@ -4,9 +4,9 @@ title:  "The command line on steroids"
 date:   2017-06-10 17:00:00 +0100
 categories: tools
 tags: [Tools, Beginner]
-draft: true
+draft: false
 thumbnail: matrix-2.png
-intro: "The command line is any developer's best friend"
+intro: "The command line is any developer's best friend. But, are you using it the right way?s"
 ---
 A command line is a text interface that you interact with by typing commands.
 In windows you have the `cmd.exe` and in Unix based systems (for instance, Linux and Mac OS) you have `bash`.
@@ -16,17 +16,14 @@ Here I will `focus on the Unix based command line` (the ones in Linux and Mac OS
 ![Command lines available in Linux, Mac and Windows]({{site.baseurl}}/assets/images/posts/command_line/all_command_lines.png)
 
 <h3>
-	Why should I care?
+	Why should you care?
 </h3>
 Like a real developer, you end up using the command line... A lot!
-When you master the command line, you become really efficient and you do things much faster that using a GUI.
+When you master the command line, you become really efficient and you do things much faster than using a GUI.
 Most technologies you can use for software development have a Command Line Interface (CLI). I also have one for the tool I am using to write this blog.
 If you always run away from the command line, think twice. 
 One day you will need to use it.
 Also, `you look cool and you can impress your team mates`!
-
-![Embrace the power of Command Line]({{site.baseurl}}/assets/images/posts/command_line/embrace-command-line.jpg)
-
 
 <h3> 
 	How to get the best command line experience
@@ -100,7 +97,7 @@ gp # git push
 	Conclusion
 </h3>
 Any Unix based Operating system already gives you an awesome command line.
-However, you can make it even better and look cool if front of your colleagues.
+However, you can make it even better and look cool in front of your colleagues.
 `Oh-my-zsh` and the right command line software (Guake for Linux and iterm for Mac) is a really good solution and makes you work very efficiently.
 Like the oh-my-zsh author says
 `"Oh My Zsh will not make you a 10x developer...but you might feel like one."`
